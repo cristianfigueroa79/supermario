@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2? family= Nova+Cut & display=swap');
+*{
+    box-sizing: border-box;
+}
+html.body{
+    height: 100%;
+}
+body{
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: "Nova Square", sans-serif;
+    font-weight: 575%;
+    font-style: normal;
+    font-size: 575%;
+    position: absolute;
+    top: 3%;
+    left: 34%;
+    animation-name: multicolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes multicolor{
+    20%{
+        color: brown;
+    }
+    40%{
+        color: blueviolet;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: blue;
+    }
+    100%{
+        color: yellowgreen;
+    }
+    }
+}
+
+
+
+
+.capa1{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    z-index: 0;
+    animation-name: rotar;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes rotar{
+    15%{
+        margin-top: 15%;
+    }
+     20%{
+           transform: rotate(360deg);
+       }
+    }
+
+
+
+.capa2{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.capa3{
+   position: absolute;
+   z-index: 2;
+   left: 40%;
+   top: 64%;
+   animation-name: caminar;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+@keyframes caminar{
+    50%{
+        left: 75%;
+    }
+    25%{
+        top: 45%;
+    }
+    35%{
+        top: 64%;
+    }
+    
+}
+
+
+
+    .capa4{
+       position: absolute;
+       z-index: 2;
+       left: 0%;
+       top: 64%;
+       animation-name: caminar2;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+    }
+    @keyframes caminar2{
+
+        50%{
+            left: 30%;
+        }
+        
+    }
+
+@media screen and (max-width:2000px){
+    body{
+        background-color: aliceblue;
+
+    }
+    
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color: antiquewhite;
+    }
+    
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: aqua;
+    }
+    
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: blueviolet;
+    }
+    
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: blueviolet;
+    }
+    
+}
+@media screen and (max-width:400px){
+    body{
+        background-color: chartreuse;
+    }
+    
+}
+@media screen and (max-width:200px){
+    body{
+        background-color: cyan;
+    }
+    
+}
+@media screen and (max-width:100px){
+    body{
+        background-color: crimson;
+    }
+    
+}
+
+     
+     
+
+
