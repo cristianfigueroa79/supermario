@@ -49,19 +49,21 @@ h1 {
     left: 50px;
     top: 0px;
     z-index: 0;
-    animation-name: rotar;
-    animation-duration: 8s;
+    animation-name:rotar;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
 }
 
 
 @keyframes rotar{
+
+
     15%{
         margin-top: 15%;
     }
-     20%{
-           transform: rotate(360deg);
-       }
+    20%{
+           -webkit-transform-origin: ;
+    }
     }
 
 
